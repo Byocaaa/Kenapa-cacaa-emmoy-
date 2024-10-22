@@ -1,0 +1,8 @@
+max = 0
+while True:
+  x = int(input("Masukkan angka: "))
+  if x > max:
+    max = x
+  if x == 0:
+    break
+print("Nilai max:", max)
